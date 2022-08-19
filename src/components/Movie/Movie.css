@@ -1,0 +1,11 @@
+div#movies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin-top: 1em;
+}
+
+img.movie {
+	max-height: 200px;
+	border-radius: 1em;
+}

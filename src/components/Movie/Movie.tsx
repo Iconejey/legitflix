@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Movie.css';
 
 export interface MovieData {
 	Title: string;
@@ -8,7 +9,7 @@ export interface MovieData {
 }
 
 function Movie(props: MovieData) {
-	return <div>{props.Title}</div>;
+	return <img className="movie" src={props.Poster} alt="" />;
 }
 
 export default Movie;
